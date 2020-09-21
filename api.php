@@ -74,7 +74,7 @@ curl_setopt($ch, CURLOPT_PROXY, "http://$super_proxy:$port");
 curl_setopt($ch, CURLOPT_PROXYUSERPWD, "$username-session-$session:$password");
 //curl_setopt($ch, CURLOPT_PROXY, $poxySocks4);
 
-  curl_setopt($ch, CURLOPT_URL, 'https://api.stripe.com/v1/sources');
+  curl_setopt($ch, CURLOPT_URL, 'https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit');
   curl_setopt($ch, CURLOPT_FOLLOWLOCATION, 1);
   curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
   curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0);
