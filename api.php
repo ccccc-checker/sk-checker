@@ -27,14 +27,14 @@ function GetStr($string, $start, $end)
 }
 
 ///Proxy Function
-function rebootproxys()
+function proxys()
   {
     $poxySocks = file("proxy.txt");
     $myproxy = rand(0, sizeof($poxySocks) - 1);
     $poxySocks = $poxySocks[$myproxy];
     return $poxySocks;
   }
-  $poxySocks4 = rebootproxys();
+  $poxySocks4 = proxys();
 
 ///proxy zone function
 
